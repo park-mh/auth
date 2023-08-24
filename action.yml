@@ -45,7 +45,7 @@ inputs:
       token. This value defaults to the value of "workload_identity_provider",
       which is also the default value Google Cloud expects for the audience
       parameter on the token.
-    default: ''
+    default: 'https://github.com/${{ github.repository }}'
     required: false
   credentials_json:
     description: |-
